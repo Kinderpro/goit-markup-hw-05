@@ -41,8 +41,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
 }
 
 .section-text {
@@ -360,9 +358,10 @@ body {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   color: #8e8f99;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .company-link:hover,
 .company-link:focus {
@@ -443,7 +442,6 @@ body {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-
 }
 .menu-container {
   padding: 32px 16px;
